@@ -21,5 +21,9 @@ https://jakarta.ee/xml/ns/jakartaee/web-facesconfig_3_0.xsd"
 			<to-view-id>/Pirata.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
-
+	<converter>
+		<description>ErabiltzailearenMotaConverter faces-config.xml-n definitua</description>
+		<converter-id>ErabiltzailearenMotaConverter</converter-id>
+		<converter-class>eredua.bean.ErabiltzailearenMotaConverter</converter-class>
+	</converter>
 </faces-config>
